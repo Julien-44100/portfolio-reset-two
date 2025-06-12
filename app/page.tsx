@@ -150,10 +150,22 @@ export default function Home() {
 
 			</section>
 			<div className={styles.webdeveloppementstyle}>
-<img src="/image/css.png" alt="logo web développement" className={`${styles.webdeveloppement}`} />
+<a href="https://www.w3schools.com/css/css_intro.asp" target="_blank" rel="noopener noreferrer">
+  <img
+    src="/image/css.png"
+    alt="logo web développement"
+    className={styles.webdeveloppement}
+  />
+</a>
+<a href="https://www.geeksforgeeks.org/backend-development/" target="_blank" rel="noopener noreferrer">
 <img src="/image/express.js-sql.png" alt="logo web développement" className={`${styles.webdeveloppement}`} />
+</a>
+<a href="https://www.w3schools.com/git/git_intro.asp?remote=github" target="_blank" rel="noopener noreferrer">
 <img src="/image/git-github.png" alt="logo web développement" className={`${styles.webdeveloppement}`} />
+</a>
+<a href="https://www.w3schools.com/html/html_intro.asp" target="_blank" rel="noopener noreferrer">
 <img src="/image/html.png" alt="logo web développement" className={`${styles.webdeveloppement}`} />
+</a>
 </div>
 		</div>
 	);

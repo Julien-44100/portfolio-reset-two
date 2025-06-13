@@ -1,5 +1,6 @@
 .page {
-	display: grid;
+	display:grid;
+	margin-top: 200px;
 	grid-template-rows: 20px 1fr 20px;
 	align-items: center;
 	justify-items: center;
@@ -62,6 +63,7 @@ height :50px;
 
 .webdeveloppement{
 	border-radius: 15px;
+	margin-bottom: 50px;
 }
 @keyframes slideIn {
 	to {
@@ -69,3 +71,19 @@ height :50px;
 		transform: translateX(0);
 	}
 }
+@media screen and (max-width: 600px) {
+	.page{
+		
+		margin-top: 20%;
+	display:flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+	}
+	.section{
+		width: 105%;
+	
+	}
+}
+

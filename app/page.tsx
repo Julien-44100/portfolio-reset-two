@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 export default function Home() {
 	return (
 		<div className={styles.page}>
-			{/* <h1 className={styles.slideInFromLeft}>
+			<h1 className={styles.slideInFromLeft}>
 				Je suis Julien Botar, développeur web junior, découvrez mon
 				savoir-faire à travers ce portfolio.
 			</h1>
@@ -166,7 +166,7 @@ export default function Home() {
 <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank" rel="noopener noreferrer">
 <img src="/image/html.png" alt="logo web développement" className={`${styles.webdeveloppement}`} />
 </a>
-</div> */}
+</div>
 		</div>
 	);
 }

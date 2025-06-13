@@ -1,13 +1,39 @@
 /* NavBar.module.css */
 .navbar {
-	height: 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #0a192f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a192f;
+  z-index: 100; /* au-dessus du reste */
 }
+
 .logo {
+	
 	width: 60px;
 	border-radius: 15px;
-	height: auto;
+	
+}
+@media screen and (max-width: 600px) {
+   /* .navbar {
+	width: 100px;
+} */
+}
+
+@media screen and (max-width: 450px) {
+  
+ .navbar {
+	width: 30em;
+}
+
+.logo {
+	margin-right: 70px;
+	width: 60px;
+	border-radius: 15px;
+	
+}
 }

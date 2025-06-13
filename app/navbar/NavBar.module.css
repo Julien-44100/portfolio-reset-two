@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
   background-color: #0a192f;
-  z-index: 100; /* au-dessus du reste */
+  z-index: 100; 
 }
 
 .logo {
@@ -18,11 +18,7 @@
 	border-radius: 15px;
 	
 }
-@media screen and (max-width: 600px) {
-   /* .navbar {
-	width: 100px;
-} */
-}
+
 
 @media screen and (max-width: 450px) {
   

@@ -5,8 +5,9 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <h1 className={styles.slideInFromLeft}>
-        Je suis Julien Botar, développeur web junior, découvrez mon&nbsp;savoir-faire à travers ce portfolio.
+        Je suis Julien Botar, développeur web junior, 
       </h1>
+	  {/* découvrez mon&nbsp;savoir-faire à travers ce portfolio. */}
 
       <section className={styles.frontendbackend}>
         <section

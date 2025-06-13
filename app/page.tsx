@@ -4,13 +4,11 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div className={styles.page}>
-      {/* <h1 className={styles.slideInFromLeft}>
-        Je suis Julien Botar
-      </h1> */}
-	  {/* , développeur web junior,  */}
-	  {/* découvrez mon&nbsp;savoir-faire à travers ce portfolio. */}
+      <h1 className={styles.slideInFromLeft}>
+        Je suis Julien Botar, développeur web junior, découvrez mon&nbsp;savoir-faire à travers ce portfolio.
+      </h1>
 
-      {/* <section className={styles.frontendbackend}>
+      <section className={styles.frontendbackend}>
         <section
           className={`${styles.section} ${styles.slideInFromLeft} ${styles.frontend}`}
         >
@@ -225,7 +223,7 @@ export default function Home() {
             className={styles.webdeveloppement}
           />
         </a>
-      </div> */}
+      </div>
     </div>
   );
 }
